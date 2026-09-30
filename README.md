@@ -10,11 +10,14 @@ Group: Teta Butera Nelly, Mutoni Keira
 | File | What it is |
 |---|---|
 | `PCA_African_Energy_Systems.ipynb` | The notebook (all outputs saved; open in Google Colab) |
-| `Task_Sheet_PCA_Formative_2_Pair15.xlsx` | Copy of the contribution sheet |
+| `BSE Group Assignments _ Task Sheet_Mathematics_for_Machine_Learning_Formative 2_PCA_Cohort 2_Team15.pdf` | Contribution sheet (PDF copy of the Google Sheet) |
+| `Task_Sheet_PCA_Formative_2_Pair15.xlsx` | Editable copy of the contribution sheet |
 | `data/owid-energy-data.csv` | Raw data, unmodified, from the [Our World in Data energy dataset](https://github.com/owid/energy-data) (commit `7e387a1`). The notebook filters it to the 54 African countries, 2000-2022. |
 | `figures/` | Figures used in the report |
 
-Only `numpy` and `matplotlib` are used for the analysis.
+The analysis uses only `numpy` and `matplotlib`. The standard-library modules `os`, `urllib` and `time` are used only to download the data and time the benchmarks.
+
+[Open the notebook in Google Colab](https://colab.research.google.com/github/nellybutera/pca-african-energy-systems/blob/main/PCA_African_Energy_Systems.ipynb)
 
 ## How to run in Google Colab
 
