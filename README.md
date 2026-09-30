@@ -15,3 +15,14 @@ Group: Teta Butera Nelly, Mutoni Keira
 | `figures/` | Figures used in the report |
 
 Only `numpy` and `matplotlib` are used for the analysis.
+
+## How to run in Google Colab
+
+1. Download `PCA_African_Energy_Systems.ipynb` from this repository.
+2. In Colab, choose **File > Upload notebook** and select the downloaded notebook.
+3. Choose **Runtime > Run all** and confirm each cell completes with its output.
+4. The notebook downloads the pinned OWID data file when it is not available locally. The analysis uses `numpy` and `matplotlib`.
+
+## Results summary
+
+The analysis covers 1,230 country-years from 54 African countries (2000-2022). It imputes missing values, one-hot encodes sub-regions, log-transforms selected skewed measures, and standardizes 19 features before PCA. PC1 explains 34.1% of the variance; seven components retain 90.0%, reducing the feature space from 19 dimensions to 7.
