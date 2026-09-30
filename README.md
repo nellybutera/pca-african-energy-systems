@@ -32,13 +32,17 @@ It ticks everything the assignment asked for:
 - Seven components keep 90.0% of the variance, so 19 features become 7.
 - What we lose is mostly fuel detail. Oil production, gas production and being in North Africa keep the least variance (around 75-76%).
 
+## Libraries used
+
+- NumPy (computation)
+- Matplotlib (plots)
+- `os`, `urllib` and `time` from the standard library, only to download the data and time the benchmarks
+
 ## Running it
 
-1. Open the notebook in Colab: [open in Colab](https://colab.research.google.com/github/nellybutera/pca-african-energy-systems/blob/main/PCA_African_Energy_Systems.ipynb). You can also download it and use **File > Upload notebook**.
+1. Open the notebook in Colab: [open in Colab](https://colab.research.google.com/github/nellybutera/pca-african-energy-systems/blob/main/PCA_African_Energy_Systems.ipynb). You can also download `PCA_African_Energy_Systems.ipynb` and use **File > Upload notebook**.
 2. Click **Runtime > Run all**. Every cell shows its output, plots included.
 3. Nothing else to set up. If the data file isn't next to the notebook, it downloads the exact version we used.
-
-The analysis only uses `numpy` and `matplotlib`. We also use `os`, `urllib` and `time` from the standard library, just to download the data and time the benchmarks.
 
 ## What's in the repo
 
@@ -47,15 +51,12 @@ The analysis only uses `numpy` and `matplotlib`. We also use `os`, `urllib` and 
 | `PCA_African_Energy_Systems.ipynb` | The notebook, with all outputs saved |
 | `data/owid-energy-data.csv` | The raw data, untouched |
 | `data/DATA_DICTIONARY.md` | What each column means |
-| `figures/` | The plots used in the report |
 | `BSE Group Assignments _ Task Sheet_Mathematics_for_Machine_Learning_Formative 2_PCA_Cohort 2_Team15.pdf` | Our task sheet as a PDF |
-| `Task_Sheet_PCA_Formative_2_Pair15.xlsx` | Editable copy of the task sheet |
 
 ## Team
 
-- **Peer pair:** Team 15, Cohort 2
-- **Teta Butera Nelly:** dataset, data handling, the PCA code, plots, benchmarks and the repo setup
-- **Mutoni Keira:** the written answers, the Colab check, the README results summary, the data dictionary and the first pull request
+- Peer Pair Number: `15` (Cohort 2)
+- Teta Butera Nelly
+- Mutoni Keira
 
-Report (Google Doc): https://docs.google.com/document/d/1S_TjfxWJwJUKvFV-6sHJi8azVPxUIWPuAk3mqwgr6Rc/edit
-Task sheet (Google Sheet): https://docs.google.com/spreadsheets/d/1kkgPBFFLvajCwub096beNw43_AatlmdXoaAnaC0QjMc/edit
+Task sheet (Google Sheet): https://docs.google.com/spreadsheets/d/1rfQdATzpVLD14FrYAnIOOqQ-1z50cfM5duubmhoiAAM/edit
